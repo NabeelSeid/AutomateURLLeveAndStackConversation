@@ -38,10 +38,10 @@ public class AutomateSlackConversation {
         contBtn.click();
 
         WebElement emailInput = driver.findElement(By.xpath("//input[@id='email']"));
-        emailInput.sendKeys("nabeelseid@gmail.com");
+        emailInput.sendKeys("username");
 
         WebElement passInput = driver.findElement(By.xpath("//input[@id='password']"));
-        passInput.sendKeys("slacklibanseid");
+        passInput.sendKeys("password");
 
         driver.findElement(By.xpath("//button[@id='signin_btn']")).click();
 
